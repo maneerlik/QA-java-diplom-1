@@ -1,5 +1,9 @@
 <a name="readme-top"></a>
+<div align="center">
+
 ![REST Assured](stellarburgers.png)
+
+</div>
 <div align="center">
     <h3 align="center">Part I: Юнит-тесты</h3>
     <a href="http://site.mockito.org">
