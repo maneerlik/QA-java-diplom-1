@@ -18,39 +18,43 @@
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contents</summary>
+  <summary>Содержание:</summary>
   <ol>
-    <li><a href="#about-the-project">About The Project</a></li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#tests">Tests</a></li>
-    <li><a href="#tech-stack">Tech Stack</a></li>
+    <li><a href="#about-the-project">О проекте</a></li>
+    <li><a href="#usage">Запуск</a></li>
+    <li><a href="#tests">Тесты</a></li>
+    <li><a href="#tech-stack">Стек</a></li>
   </ol>
 </details>
 
-## About The Project
+## О проекте
+<a name="about-the-project"></a>
 Необходимо покрыть тестами предлагаемые классы: Bun, Burger, Ingredient, IngredientType. Процент покрытия должен быть не ниже 70%.
 
-## Usage
+## Запуск
+<a name="usage"></a>
 Для подготовки отчета выполнить команды 
 ```
 mvn clean verify
 ```
 
-## Tests
+## Тесты
+<a name="tests"></a>
 * `BaseTest` - базовый тест
 * `BunTest` - тест класса Bun
 * `BurgerTest` - тест класса Burger
 * `IngredientTest` - тест класса Ingredient
 * `DatabaseTest` - тест класса Database
 
-## Tech Stack
+## Стек
+<a name="tech-stack"></a>
 [![Java11][java]][javadoc-url]
 [![JUnit4][junit]][junit-url]
 [![Mockito][mockito]][mockito-url]
 [![JaCoCo][jacoco]][jacoco-url]
 [![Git][git]][git-url]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">вверх</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
