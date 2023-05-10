@@ -61,12 +61,13 @@ public class BurgerTest extends BaseTest {
         Assert.assertTrue(burger.ingredients.isEmpty());
     }
 
+    // проверяет работу метода Burger.moveIngredient
     @Test
     public void moveIngredientIngredientMoved() {
-        burger.ingredients.addAll(List.of(ingredient, oneMoreIngredient));
-        burger.moveIngredient(1, 0);
-        burger.ingredients.get(1).getName();
-        Mockito.verify(ingredient).getName();
+        burger.ingredients.addAll(List.of(ingredient, oneMoreIngredient)); // добавляет 2 ингредиента
+        burger.moveIngredient(1, 0); // меняет ингредиенты местами методом Burger.moveIngredient
+        burger.ingredients.get(1).getName(); // дергает getName() второго ингредиента
+        Mockito.verify(ingredient).getName(); // убеждается, что метод дернулся у передвинутого ингредиента
     }
 
     @Test
