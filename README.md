@@ -49,10 +49,10 @@ mvn clean verify
 ## Стек
 <a name="tech-stack"></a>
 [![Java11][java]][javadoc-url]
+[![Git][git]][git-url]
 [![JUnit4][junit]][junit-url]
 [![Mockito][mockito]][mockito-url]
 [![JaCoCo][jacoco]][jacoco-url]
-[![Git][git]][git-url]
 
 <p align="right">(<a href="#readme-top">вверх</a>)</p>
 
